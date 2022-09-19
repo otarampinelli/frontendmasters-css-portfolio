@@ -69,32 +69,20 @@
     font-size: 4rem;
   }
   
-  #contact {
+  .section-plum {
     background: var(--plum);
+  }
+
+  #contact {
+    width: 400px;
     text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
   }
-  
-  #contact h2 {
-    font-family: var(--sans);
-    padding: 3rem 0 1rem 0;
-  }
-  
-  #contact p {
-    margin: 0;
-    line-height: 1.5;
-    font-size: var(--font-size);
-  }
-  
+
   #contact a {
-    display: block;
-    padding: 2rem;
-    font-family: var(--mono)
-    color: var(--magenta);
-  }
-  
-  #contact a:hover {
-    color: var(--hotmag);
     text-decoration: none;
+    color: white;
   }
   
   nav {
