@@ -81,8 +81,7 @@
   }
 
   #contact a {
-    text-decoration: none;
-    color: white;
+    color: var(--white);
   }
   
   nav {
@@ -129,6 +128,7 @@
     background-color: var(--magenta);
     padding: 0.5rem;
     border-radius: 5px;
+    text-decoration: none;
   }
   
   .button:hover {
