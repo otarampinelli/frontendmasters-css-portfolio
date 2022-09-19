@@ -43,10 +43,10 @@
     text-decoration: none;
   }
   
-  /* instro styles */
-  
   #intro {
-    padding-bottom: 10rem;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
   }
   
   #intro p {
@@ -107,7 +107,7 @@
     font-family: var(--sans);
   }
   
-  nav ul {
+  nav ul, #footer ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -146,6 +146,20 @@
   .button:hover {
     color: var(--white);
     background-color: var(--hotmag);
+  }
+
+  #footer {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  #footer [class*="fa-"] {
+    font-size: 150%;
+  }
+
+  #footer h2 {
+    font-family: var(--sans);
+    padding: 3rem 0 1rem 0;
   }
   
   @media (min-width: 850px) {
